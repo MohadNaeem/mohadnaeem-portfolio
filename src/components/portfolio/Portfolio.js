@@ -36,7 +36,12 @@ const Portfolio = () => {
         </article>
         <article className={"portfolio__item"}>
           <div className={"portfolio__item-image"}>
-            <img src={IMG7} alt={""} height={"230px"} width={"170px"} />
+            <img
+              src={IMG7}
+              alt={""}
+              height={"230px"}
+              style={{ width: "100%" , objectFit : 'cover' , transform : 'scaleX(1.5)' }}
+            />
           </div>
           <h3>Linq Legal - Legal Practice Soft.</h3>
           <div className={"portfolio__item-cta"}>
@@ -87,7 +92,6 @@ const Portfolio = () => {
               }
               alt={""}
               height={"230px"}
-              width={"170px"}
             />
           </div>
           <h3>Be-timeful- React Extension</h3>
