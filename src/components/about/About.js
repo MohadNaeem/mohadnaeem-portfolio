@@ -36,7 +36,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>Got something wrong with your web or want to digitize your business? Worry not ....You are at the right place.A professional developer is looking your way with experience and expertees in both maintaining awesome UIs with collaboration of smart SEO and at the same time handling server side(backend) logic.Want an interaction....? Jump down to interaction section. I have handled clients from all around the globe and can debug your problems too with the least of your mind-drawn picture of  problem. On the same side, I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.     </p>
-                    <a href={"contact"} className={"btn btn-primary mediabtn"}>Let's Talk</a>
+                    <a href={"#contact"} className={"btn btn-primary mediabtn"}>Let's Talk</a>
                 </div>
             </div>
         </section>
