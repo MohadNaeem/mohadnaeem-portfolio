@@ -92,6 +92,7 @@ const Portfolio = () => {
               }
               alt={""}
               height={"230px"}
+              style={{ width: "100%" , objectFit : 'cover' , transform : 'scaleX(1.2)' }}
             />
           </div>
           <h3>Be-timeful- React Extension</h3>
